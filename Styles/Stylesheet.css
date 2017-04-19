@@ -1,0 +1,294 @@
+ body {
+      position: relative;
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  
+    #567{
+     position: relative;
+     top: 50px;
+  }
+
+
+#tea{
+/*background-image : url("../tea2.jpg");*/
+/*border:solid;*/
+font-color: red;
+padding:0px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	
+	background-color: #ffffff;
+	border: 0;
+	font-size: 18px !important;
+	letter-spacing: 3px;
+	/*opacity: 0.9;*/
+	padding: 10px 10px;
+	font-weight: bold;
+	/*background-image : url("tea2.jpg");*/
+	
+}
+
+.navbar-brand {
+	font-size: 22px !important;
+	
+}
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+	color: #444444 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+	color: #77b300!important; /*green*/
+}
+
+/* The active link */
+.navbar-nav li.active a {
+	color: #fff !important;
+	background-color: #29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    /*background-color: #555 !important;*/
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: #3399ff!important; /*blue*/
+    color: #444444 !important; /*black*/
+}
+
+
+
+
+
+.carousel-inner img {
+	/*-webkit-filter: grayscale(90%);*/
+	/*filter: grayscale(90%);*/ /* make all photos black and white */
+	width: auto; /* Set width to 100% */
+	height: auto;
+	margin: auto;
+}
+
+.carousel-caption h3 {
+	color: #fff !important;
+}
+
+@media ( max-width : 600px) {
+	.carousel-caption {
+		display: none;
+		/* Hide the carousel text when the screen is less than 600 pixels wide */
+	}
+}
+
+.person {
+	border: 10px solid transparent;
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.7;
+}
+
+.person:hover {
+	border-color: #f1f1f1;
+}
+
+.container {
+	padding: 80px 120px;
+	
+}
+
+#collapsible0{
+	
+	display:inline;
+}
+
+
+.container img{
+	
+	width:300px;
+	height:250px;
+	
+}
+
+.container-coffee{
+	padding: 20px 120px;
+	
+}
+.container-coffee img{
+	
+	width:300px;
+	height:250px;
+	
+}
+
+.management-title{
+	text-align: center;
+	padding: 10px;
+}
+.container-management {
+    text-align: center;
+    /*border: 10px solid black;*/
+}
+
+.updatecoffee-container{
+	padding: 10px 220px;
+	
+}
+
+.addcoffee-container{
+	padding: 10px 220px;
+}
+
+.tableoverview-container
+{
+	text-align: center;
+	padding: 5px 100px;
+	
+}
+
+.uploadimage-container{
+	text-align: center;
+	
+}
+
+
+.loginorreg-container{
+	text-align: center;
+	padding: 5px 100px;
+	
+}
+
+#collapsible0 h1{
+	
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+#specialevent0 h1{
+	font-weight: bold;
+	padding-bottom: 50px;
+	
+	
+}
+
+
+.bg-1 {
+	   
+	/*background: #f2f2f2; grey*/
+	 color: #444444 !important; ;
+}
+
+.bg-1 h3 {
+	color: #fff;
+}
+
+.bg-1 p {
+	font-style: italic;
+}
+
+
+.thumbnail {
+	padding: 0 0 15px 0;
+	border: none;
+	border-radius: 0;
+}
+
+.thumbnail p {
+	margin-top: 15px;
+	color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+	padding: 10px 20px;
+	background-color: #3399ff;
+	color: #444444 !important;;
+	border-radius: 0;
+	transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+	border: 1px solid #333;
+	background-color: #fff;
+	color: #000;
+}
+
+/* Add a dark gray background color to the modal header and center text */
+.modal-header, h4, .close {
+	background-color: #3399ff;
+	color: #fff !important;
+	text-align: center;
+	font-size: 30px;
+}
+
+.modal-header, .modal-body {
+	padding: 40px 50px;
+}
+
+#googleMap {
+	
+	padding:50px 10px;
+	width: 1000px; /* Span the entire width of the screen */
+	height: 500px; /* Set the height to 400 pixels */
+	/*-webkit-filter: grayscale(100%);*/
+	/*filter: grayscale(100%);*//*Change the color of the map to black and white*/
+}
+
+#googlemap0{
+		font-weight: bold;
+	padding: 20px;
+	
+	
+	
+}
+
+
+
+#managementgroup{
+	
+	padding: 20px;
+	color: white;
+	
+}
+
+#managementgroup .btn {
+	
+   
+	color: #fff !important;
+	
+}
+
+#uploadheading{
+	
+	padding: 20px;
+	
+}
+
+
+#ticketform label{
+
+text-align: left;
+
+}
